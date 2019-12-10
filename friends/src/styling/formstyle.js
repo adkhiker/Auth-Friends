@@ -1,26 +1,26 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-const FormStyle = styled.div `
-margin: 5%;
+const FormStyle = styled.div`
+  margin: 5%;
 
-h1 {
+  h1 {
     color: teal;
-}
-form {
+  }
+  form {
     display: flex;
-flex-flow: column wrap;
-align-items: center;
-}
-input {
-width: 300px;
-height: 30px;
-margin: 1%;
-font-size: 1rem;
-}
-label {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  input {
+    width: 300px;
+    height: 30px;
+    margin: 1%;
+    font-size: 1rem;
+  }
+  label {
     font-size: 1.1rem;
-}
-button {
+  }
+  button {
     width: 150px;
     height: 40px;
     font-size: 1rem;
@@ -28,6 +28,6 @@ button {
     color: white;
     cursor: pointer;
     border-radius: 14px;
-}
-`
+  }
+`;
 export default FormStyle;

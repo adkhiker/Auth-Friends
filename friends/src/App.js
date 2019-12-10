@@ -1,18 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-import PrivateRoute from './utils/PrivateRoute'
-import './App.css';
-import NavStyle from './styling/navstyle'
+import React from "react";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import PrivateRoute from "./utils/PrivateRoute";
+import "./App.css";
+import NavStyle from "./styling/navstyle";
 
 //Components
-import Friends from './components/FriendsList'
-import Login from './components/LoginFriends'
-import FriendForm from './components/FriendsForm'
+import Friends from "./components/FriendsList";
+import Login from "./components/LoginFriends";
+import FriendForm from "./components/FriendsForm";
 
 function App() {
   const handleLogout = () => {
     localStorage.clear();
-  }
+  };
   return (
     <Router>
       <NavStyle className="App">
